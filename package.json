@@ -9,7 +9,7 @@
   "types": "./dist/react-splt.d.ts",
   "rootDir": "./src",
   "exports": {
-    ".": {
+    "./src/": {
       "types": "./dist/react-splt.d.ts",
       "require": "./dist/react-splt.umd.cjs",
       "import": "./dist/react-splt.js"
