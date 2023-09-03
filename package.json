@@ -6,7 +6,7 @@
   "type": "module",
   "main": "dist/react-splt.js",
   "types": "dist/react-splt.d.ts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "SpltJs for React",
   "author": "Logan Liffick",
   "license": "MIT",
