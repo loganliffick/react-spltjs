@@ -7,14 +7,6 @@
   "main": "./dist/react-splt.umd.cjs",
   "module": "./dist/react-splt.js",
   "types": "./dist/react-splt.d.ts",
-  "rootDir": "./src",
-  "exports": {
-    "./src/": {
-      "types": "./dist/react-splt.d.ts",
-      "require": "./dist/react-splt.umd.cjs",
-      "import": "./dist/react-splt.js"
-    }
-  },
   "version": "0.0.6",
   "description": "SpltJs for React",
   "author": "Logan Liffick",
