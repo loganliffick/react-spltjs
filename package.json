@@ -4,16 +4,15 @@
     "dist"
   ],
   "type": "module",
-  "main": "./dist/my-lib.umd.cjs",
-  "module": "./dist/my-lib.js",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/react-splt.js",
+  "types": "./dist/react-splt.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/my-lib.js",
-      "require": "./dist/my-lib.umd.cjs"
+      "import": "./dist/react-splt.js",
+      "require": "./dist/react-splt.umd.cjs"
     }
   },
-  "version": "0.0.8",
+  "version": "0.0.1",
   "description": "SpltJs for React",
   "author": "Logan Liffick",
   "license": "MIT",
@@ -34,7 +33,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-spltjs": "^0.0.1"
   },
   "devDependencies": {
     "@types/node": "^20.5.9",

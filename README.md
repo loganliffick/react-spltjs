@@ -1,7 +1,7 @@
 # SpltJS for React with Type Safety
 
 <p>The easiest text-splitter just got better! Now rebuilt for React featuring type safety🎉</p>
-<p><a href="https://www.buymeacoffee.com/loganliffick">Support SpltJs's creator</a> and help support new feature development</p>
+<p><a href="https://www.buymeacoffee.com/loganliffick">Support SpltJS's creator</a> and help support new feature development</p>
 
 ## Install
 
