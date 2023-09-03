@@ -24,7 +24,7 @@ const Splt: React.FC<SpltProps> = ({
       {characters.map((char, index) => {
         const classes = [
           ...(array[index] || []),
-          char === ' ' ? '!inline' : '',
+          char === ' ' ? '!inline ' : '',
         ];
 
         return (

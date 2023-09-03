@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles.css';
-import Splt from './react-splt';
-// import Splt from 'react-spltjs';
+// import Splt from './react-splt';
+import Splt from 'react-spltjs';
 
 const titleColors = [
   ['text-lime-500'],
@@ -18,7 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <main>
       <p>
-        <Splt array={titleColors} text="pricing" />
+        <Splt array={titleColors} text="pricing page" />
       </p>
     </main>
   </React.StrictMode>,
