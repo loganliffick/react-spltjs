@@ -4,8 +4,16 @@
     "dist"
   ],
   "type": "module",
-  "main": "dist/react-splt.js",
-  "types": "dist/react-splt.d.ts",
+  "main": "./dist/react-splt.umd.cjs",
+  "module": "./dist/react-splt.js",
+  "types": "./dist/react-splt.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/react-splt.d.ts",
+      "require": "./dist/react-splt.umd.cjs",
+      "import": "./dist/react-splt.js"
+    }
+  },
   "version": "0.0.3",
   "description": "SpltJs for React",
   "author": "Logan Liffick",
@@ -27,8 +35,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-spltjs": "^0.0.2"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "^20.5.9",
@@ -43,6 +50,8 @@
     "pathe": "^1.1.1",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2",
-    "vite": "^4.4.9"
+    "vite": "^4.4.9",
+    "vite-plugin-dts": "^3.5.3",
+    "react-spltjs": "^0.0.3"
   }
 }
