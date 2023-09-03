@@ -4,14 +4,8 @@
     "dist"
   ],
   "type": "module",
-  "main": "./dist/react-splt.js",
-  "types": "./dist/react-splt.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/react-splt.js",
-      "require": "./dist/react-splt.umd.cjs"
-    }
-  },
+  "main": "dist/react-splt.js",
+  "types": "dist/react-splt.d.ts",
   "version": "0.0.2",
   "description": "SpltJs for React",
   "author": "Logan Liffick",
@@ -34,21 +28,21 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-spltjs": "^0.0.1"
+    "react-spltjs": "^0.0.2"
   },
   "devDependencies": {
     "@types/node": "^20.5.9",
-    "@types/react": "^18.2.15",
+    "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
-    "@vitejs/plugin-react": "^4.0.3",
-    "eslint": "^8.45.0",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "@vitejs/plugin-react": "^4.0.4",
+    "eslint": "^8.48.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "pathe": "^1.1.1",
     "prettier": "^3.0.3",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5"
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
   }
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles.css';
 import Splt from './react-splt';
+// import Splt from 'react-spltjs';
 
 const titleColors = [
   ['text-lime-500'],
