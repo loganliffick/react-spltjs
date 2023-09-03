@@ -15,7 +15,7 @@
       "import": "./dist/react-splt.js"
     }
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "SpltJs for React",
   "author": "Logan Liffick",
   "license": "MIT",
