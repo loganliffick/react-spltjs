@@ -4,8 +4,8 @@ interface SpltProps {
   text: string;
   array?: string[][];
   className?: string;
-  start?: number;
-  increment?: number;
+  speed?: number;
+  offset?: number;
   ease?: string;
 }
 
@@ -13,8 +13,8 @@ const Splt: React.FC<SpltProps> = ({
   text,
   array = [],
   className = '',
-  start = 0,
-  increment = 0.05,
+  speed = 0,
+  offset = 0.05,
   ease = 'ease',
 }) => {
   const characters = text.split('');
@@ -25,7 +25,7 @@ const Splt: React.FC<SpltProps> = ({
         const classes = [...(array[index] || [])];
 
         const style: React.CSSProperties = {
-          animationDuration: `${(index + 1) * increment + start}s`,
+          animationDuration: `${(index + 1) * offset + speed}s`,
           animationTimingFunction: ease,
         };
 
