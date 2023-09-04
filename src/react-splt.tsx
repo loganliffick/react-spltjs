@@ -22,19 +22,22 @@ const Splt: React.FC<SpltProps> = ({
   return (
     <>
       {characters.map((char, index) => {
-        const classes = [
-          ...(array[index] || []),
-          char === ' ' ? '!inline ' : '',
-        ];
+        const classes = [...(array[index] || [])];
+
+        const style: React.CSSProperties = {
+          animationDuration: `${(index + 1) * increment + start}s`,
+          animationTimingFunction: ease,
+        };
+
+        if (char === ' ') {
+          style.display = 'inline';
+        }
 
         return (
           <span
             key={index}
-            className={classes.join(' ') + `${className}`}
-            style={{
-              animationDuration: `${(index + 1) * increment + start}s`,
-              animationTimingFunction: ease,
-            }}
+            className={classes.join(' ') + ` ${className}`}
+            style={style}
           >
             {char}
           </span>

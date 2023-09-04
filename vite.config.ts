@@ -7,19 +7,15 @@ import dts from 'vite-plugin-dts';
 export default defineConfig({
   build: {
     lib: {
-      // Could also be a dictionary or array of multiple entry points
       entry: resolve(__dirname, 'src/react-splt.tsx'),
       name: 'React Splt',
-      // the proper extensions will be added
       fileName: 'react-splt',
     },
     rollupOptions: {
-      // make sure to externalize deps that shouldn't be bundled
-      // into your library
+      // deps that shouldn't be bundled
       external: ['react'],
       output: {
-        // Provide global variables to use in the UMD build
-        // for externalized deps
+        // global variables used in UMD build
         globals: {
           react: 'React',
         },
