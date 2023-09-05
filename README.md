@@ -84,7 +84,7 @@ export default App;
 
 ## Documentation
 
-<p>View full documentation at <a href="https://www.react.spltjs.com">react.spltjs.com</a></p>
+<p>View full documentation at <a href="https://react.spltjs.com">react.spltjs.com</a></p>
 <br/>
 
 ## Contributors
